@@ -12,7 +12,7 @@ class Geometric {
     putSpaceBefore(space, asterid) {
         return console.log( "  ".repeat(space) + " * ".repeat(asterid) + "  ")
     }
-    writeSpaceBefor(spaceBefore, spaceAfter) {
+    writeSpaceBefore(spaceBefore, spaceAfter) {
         return console.log( "  ".repeat(spaceBefore) + " * " + "  ".repeat(spaceAfter) + " * ")
     }
     drawSquare(n) {       
